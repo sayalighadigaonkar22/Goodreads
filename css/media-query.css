@@ -1,0 +1,62 @@
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .container {
+        width: 90vw;
+    }
+
+    #inner-container {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-links a {
+        padding: 10px;
+    }
+
+    .details h3 {
+        font-size: 1em;
+    }
+
+    .details p {
+        font-size: 0.9em;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        width: 100%;
+        height: auto;
+    }
+
+    .header {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .details h3 {
+        font-size: 0.9em;
+    }
+
+    .details p {
+        font-size: 0.8em;
+    }
+
+    button {
+        padding: 5px 10px;
+    }
+}
