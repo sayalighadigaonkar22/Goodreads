@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Book</title>
+    <link rel="stylesheet" href="/css/purchase.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Purchase Book</h1>
+        </header>
+        <div id="purchase-container" class="form-container">
+            <h2>Thank you for choosing to purchase this book!</h2>
+            
+            <div id="book-details"></div>
+
+            <form id="purchase-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="card">Credit Card Number:</label>
+                    <input type="text" id="card" name="card" required>
+                </div>
+                <div class="form-group">
+                    <label for="expiry">Expiry Date:</label>
+                    <input type="text" id="expiry" name="expiry" required>
+                </div>
+                <div class="form-group">
+                    <label for="cvv">CVV:</label>
+                    <input type="text" id="cvv" name="cvv" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+
+            <button id="delete-book">Delete</button>
+
+        </div>
+    </div>
+
+    <script src="/js/purchase-online.js"></script>
+</body>
+</html>
